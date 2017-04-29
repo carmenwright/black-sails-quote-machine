@@ -1,0 +1,173 @@
+body {
+  background-color: #000;
+  font-family: 'Playfair+Display', serif;
+  font-weight: 700;
+}
+
+div {
+    width: 70%;
+    margin:8% auto auto auto;
+    padding:40px 50px;
+    display:table;
+    background-color:#fff;
+}
+    
+h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+}
+
+#quote {
+    text-align:center;
+    width:60%
+    clear:both;
+    font-size:1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    font-weight:500;
+    }
+  
+#person {
+    clear:both;
+    font-size:.8em; 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    font-weight: 500;
+}
+
+#cover {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: inherit;
+}
+    
+#button {
+    float: left;
+    border-radius: 3px;
+    background-color: #414141;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: inherit;
+}
+
+#name {
+    text-align:center;
+    display:block;
+    margin:15px auto 15px auto;
+    padding-top: inherit;
+    font-size:0.8em;
+}
+
+#name a {
+    color: #414141;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #cover {
+        width: 65%;
+        height: 65%;
+    }
+}
+
+@media (min-width: 940px) { 
+    body {
+        background-color: #000;
+        font-family: 'Playfair+Display', serif;
+        font-weight:700;
+    }
+
+    div {
+        margin:8% auto auto auto;
+        width: 500px;
+        padding:40px 50px;
+        display:table;
+        background-color:#fff;
+    }
+
+    h1 {
+        font-family: 'Alex Brush', cursive;
+        font-size: 3em;
+        width:95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #quote {
+        width:95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:auto;
+        clear:both;
+        font-weight:500;
+        font-size:1.25em;
+    }
+
+    #person {
+        width:95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:auto;
+        clear:both;
+        padding-top:20px;
+        font-size:1em; 
+    }
+
+    #cover {
+        width: 50%;
+        height: 50%;
+    }
+
+    #button {
+        float: left;
+        border-radius: 3px;
+        background-color: #414141;
+        width:95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 10px;
+        width: 100px;
+        height: 60px;
+    }
+
+    #name {
+        width:95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size:1em;
+    }
+}
