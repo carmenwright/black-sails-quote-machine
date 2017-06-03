@@ -1,4 +1,10 @@
-[{
+[
+    {
+    "quote":"In 1715 West Indies, the pirates of New Providence Island threaten maritime trade in the region. The laws of every civilized nation declare them <em>hostis humani generis</em>, enemies of all mankind. In response, the pirates adhere to a doctrine of their own... war against the world.",
+    "person":"",
+    "cover": 0
+  },
+{
     "quote":"They paint the world full of shadows and then tell their children to stay close to the light. Their light. Their reasons, their judgments. Because in the darkness, there be dragons. But it isn\'t true. We can prove that it isn\'t true. In the dark, there is discovery, there is possibility, there is freedom in the dark.",
     "person":"James Flint",
     "cover": 3
@@ -119,4 +125,4 @@
          "person": "Charles Vane",
          "cover": 3
      }
-]
+];
