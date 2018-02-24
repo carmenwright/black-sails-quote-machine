@@ -17,19 +17,19 @@ h1 {
     font-size: 2em;
 }
 
-#quote {
+#quoteBlock {
     text-align:center;
     width:60%
-    clear:both;
-    font-size:1em;
+    clear: both;
+    font-size: 1em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:auto;
-    font-weight:500;
-    }
+    height: auto;
+    font-weight: 500;
+}
   
-#person {
+aside {
     clear:both;
     font-size:.8em; 
     text-align: center;
@@ -37,6 +37,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height:auto;
+    padding: 10px;
     font-weight: 500;
 }
     
